@@ -8,32 +8,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <!-- CSS Link -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 </head>
-
-<body>
+<div id="wrapper">
     <div class="container">
+
+        <!-- Header with nav bar -->
         <div class="row">
-            <div class="col-md-12">
-                <h1 id="bioHead">Student Bio</h1>
+            <div class="col-lg-12">
+                <nav id="navBarDiv" class="navbar navbar-expand-lg navbar-light bg-secondary">
+                    <a class="navbar-brand" href="#">Jacob Broughton</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">About me <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text">
+                            Navbar text with an inline element
+                        </span>
+                    </div>
+                </nav>
             </div>
         </div>
-        <div class="row"></div>
-        
+    </div>
 
-        <h2>Jacob Broughton</h2>
-
+    <!-- Front page picture, social media, and name -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="mainPictureDiv" class="justify-content-center">
+                    <a id="mainPicture" href="https://placeholder.com"><img src="https://via.placeholder.com/250x250"></a>
+                </div>
+            </div>
+        </div>
         <br>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="socialMediaDiv" class="bg-secondary flex-row d-inline-flex p-2">
+                    <div id="socialMedia">
+                        <a id="socialMedia1" href="https://placeholder.com"><img src="https://via.placeholder.com/50x50"></a>
+                        <a id="socialMedia2" href="https://placeholder.com"><img src="https://via.placeholder.com/50x50"></a>
+                        <a id="socialMedia3" href="https://placeholder.com"><img src="https://via.placeholder.com/50x50"></a>
+                        <a id="socialMedia4" href="https://placeholder.com"><img src="https://via.placeholder.com/50x50"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <img src="IMG_8355.JPG" height="300" width="300">
+        <!-- Name (Front and center) -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="mainNameDiv">
+                    <div id="mainName" class="bg-danger">Jacob Broughton</div>
+                </div>
+            </div>
+        </div>
 
-        <br>
+        <!-- Description under name -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="mainNameDesc">Short Description</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Bottom pictures -->
+        <div id="secondaryPicDiv" class="row bg-secondary d-inline-flex p-2">
+            <div class="col-lg-4">
+                <a id="secondaryPic1" class="mr-1" href="https://placeholder.com"><img src="https://via.placeholder.com/250x250"></a>
+            </div>
+            <div class="col-lg-4">
+                <a id="secondaryPic2" class="ml-1 mr-1" href="https://placeholder.com"><img src="https://via.placeholder.com/250x250"></a>
+            </div>
+            <div class="col-lg-4">
+                <a id="secondaryPic3" class="ml-1" href="https://placeholder.com"><img src="https://via.placeholder.com/250x250"></a>
+            </div>
+        </div>
 
-        <p>My name is Jacob Broughton, i'm 19. I dont really have any formal experience other than a simple high school degree
-            from Butler High School.</p>
-
-
-        <br>
+        <!-- Contact Info (Homework turn ins for now) -->
         <h2>Contact Info</h2>
         <ul>
             <li>Email : <a href="mailto:jlbroughton88@gmail.com">Jlbroughton88@gmail.com</a></li>
@@ -41,11 +108,16 @@
             <li>Portfolio : <a href="#">Portfolio Coming Soon</a></li>
             <li>Homework : <a href="https://jlbroughton88.github.io/HW-Wireframe/">Wireframe</a></li>
             <li>Homework : <a href="https://jlbroughton88.github.io/Word-Guess-Game/">Word Guess Game</a></li>
-            <li>Homework : <a href="https://jlbroughton88.github.io/unit-4-game/">jQuery Crystal Collector (Unit 4)</a></li>
+            <li>Homework : <a href="https://jlbroughton88.github.io/unit-4-game/">jQuery Crystal Collector
+                    (Unit 4)</a></li>
             <li>Homework : <a href="https://jlbroughton88.github.io/TriviaGame/">Trivia Game</a></li>
             <li>Homework : <a href=" https://jlbroughton88.github.io/GiphyAPI/">Giphytastic</a></li>
             <li>Homework : <a href="https://jlbroughton88.github.io/FirebaseHW/">Firebase HW</a></li>
+            <li>Project 1 : <a href="https://jlbroughton88.github.io/projectMarvel//">Project 1</a></li>
+            <li>Homework : <a href="https://jlbroughton88.github.io/liri-node-app/">Liri-Node-App</a></li>
         </ul>
+    </div>
+</div>
 </body>
 
 </html>
